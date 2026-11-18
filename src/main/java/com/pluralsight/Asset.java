@@ -14,6 +14,15 @@ public class Asset {
         this.dateAcquired = dateAcquired;
     }
 
+    public Asset() {
+    }
+
+    public Asset(String originalCost, String description, int dateAcquired) {
+    }
+
+    public Asset(BigDecimal originalCost, String description, int dateAcquired) {
+    }
+
     // Getters
     public BigDecimal getOriginalCost() {
         return originalCost;
